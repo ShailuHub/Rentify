@@ -1,0 +1,27 @@
+.property-form-container {
+  margin: 8rem auto 0 auto;
+}
+
+#nearby {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#propertyForm p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#nearby > div {
+  padding: 0.5rem;
+}
+
+#nearby > div input {
+  margin-right: 0.6rem;
+  padding: 2rem;
+}
+
+#nearby > div label {
+  font-size: 1.6rem;
+  opacity: 0.7;
+}

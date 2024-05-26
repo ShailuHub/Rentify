@@ -1,0 +1,11 @@
+#notification {
+  padding: 1rem 3rem;
+  background-color: #00ed64;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  border: 0.1rem solid black;
+  top: 10rem;
+  right: 0;
+}

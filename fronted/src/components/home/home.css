@@ -1,0 +1,25 @@
+main {
+  max-width: 120rem;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  z-index: -1;
+}
+
+@media (max-width: 972px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  main {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}

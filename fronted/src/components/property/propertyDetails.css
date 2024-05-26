@@ -1,0 +1,38 @@
+#property-details-main-container {
+  max-width: 92rem;
+  margin: 2rem auto 0 auto;
+}
+
+#property-details-container {
+  width: 100%;
+  display: flex;
+  border: 0.2rem solid slateblue;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.8rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+#property-description h3 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+#property-details-img {
+  width: 100%;
+}
+
+#property-details-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#property-description-container {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+#property-description-container > div > p {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
